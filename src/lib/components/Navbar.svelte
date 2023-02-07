@@ -20,18 +20,29 @@
 
   export let pages: Route[] = [
     {
-      id: "#home",
-      route: "/home",
+      id: "/",
+      route: "/",
       name: "home",
       title: "Home",
     },
     {
-      id: "#content",
-      route: "/content",
-      name: "content",
-      title: "content",
+      id: "services",
+      route: "/services",
+      name: "services",
+      title: "Services",
     },
-
+    {
+      id: "contact",
+      route: "/contact",
+      name: "contact",
+      title: "Contact",
+    },
+    {
+      id: "about",
+      route: "/about",
+      name: "about",
+      title: "About",
+    },
   ];
   const menuDuration = 200;
   let open = false;

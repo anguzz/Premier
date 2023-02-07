@@ -44,5 +44,8 @@
     "typescript": "^4.7.4",
     "vite": "^3.0.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "svelte-qrcode-image": "^1.0.0-rc.2"
+  }
 }

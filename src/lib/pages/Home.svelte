@@ -4,8 +4,9 @@
  
   let color = "text-grey-200";
   let hover = "sm:hover:text-primary-500";
- 
 </script>
+
+
 
 <Anchor id="home" />
 <div
@@ -13,7 +14,7 @@
   id="bg"
 >
   <div class="text-center">
-    <h1 class="text-5xl m-6 {color} font-light"> Welcome! </h1>
+    <h1 class="text-5xl m-6 {color} font-light"> Welcome to the homepage! </h1>
   </div>
 
 </div>
