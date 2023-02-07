@@ -22,25 +22,25 @@
     {
       id: "/",
       route: "/",
-      name: "home",
+      name: "home", //chaning name from home breaks navbar mobile
       title: "Home",
     },
     {
       id: "services",
       route: "/services",
-      name: "services",
+      name: "home",
       title: "Services",
     },
     {
       id: "contact",
       route: "/contact",
-      name: "contact",
+      name: "home",
       title: "Contact",
     },
     {
       id: "about",
       route: "/about",
-      name: "about",
+      name: "home",
       title: "About",
     },
   ];
