@@ -6,7 +6,7 @@
 </script>
 
 <Navbar />
-<main class="pt-16">
+<main>
   <slot />
 </main>
 <Footer/>
