@@ -20,8 +20,8 @@
 
   export let pages: Route[] = [
     {
-      id: "/",
-      route: "/",
+      id: "/home",
+      route: "/home",
       name: "home", //chaning name from home breaks navbar mobile
       title: "Home",
     },
@@ -156,7 +156,7 @@
                 href={route.id}
                 on:click={() => {
                   animateScroll.scrollTo({
-                    element: document.querySelector(route.id),
+                    element: document.getElementById(route.id),
                   });
                 }}
                 class="px-4 py-2 text-sm font-medium rounded-md
@@ -186,7 +186,7 @@
             on:click={() => {
               open = false;
               animateScroll.scrollTo({
-                element: document.querySelector(route.id),
+                element: document.getElementById(route.id),
               });
             }}
             class="{colors.buttonText} block px-3 py-2 rounded-md text-base font-medium
