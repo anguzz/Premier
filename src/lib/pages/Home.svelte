@@ -10,18 +10,20 @@
   let showThumbs=false
   let showCaptions=false
   let showIndicators=false
+  let slideControls=false
 </script>
 
 
 
 <Anchor id="home" />
+<div class="text">  Premier smartscape is the best when it comes to meeting your contracting needs. </div>
+<!--just for now edit the text field later-->
 
 <div
-  class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700" id="bg">
-
-<div class="max-w-4xl">
-  <Carousel {images} {showThumbs} {showCaptions} {showIndicators}/>
-</div>
+  class="flex flex-col items-center justify-center  bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700" id="bg">
+  <div class="max-w-10xl">
+    <CarouselTransition {images} {slideControls} loop transitionType="fade" transitionParams="{{ duration: 200 }}" showCaptions={false} showThumbs={false} duration="4000" /> 
+  </div>
 </div>
 
 
@@ -29,19 +31,16 @@
 <style>
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
-    background-image: linear-gradient(217deg, rgba(0, 248, 165, 0.8), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(0, 4, 255, 0.8), rgba(0,255,0,0) 70.71%),
-      linear-gradient(336deg, rgba(248, 248, 248, 0.8), rgba(0,0,255,0) 70.71%);
-    
+    background-color:rgb(27, 27, 27);  
   }
 
-  .text-2{
+  .text{
   font-size: 1.8rem;  
   margin: 0rem;
   margin-top: 0rem;
   font-weight: 200;
   line-height: 3rem;
-  color:rgb(215, 219, 223);
+  color:rgb(215, 223, 222);
  }    
  
   .subtitle {
