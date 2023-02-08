@@ -4,20 +4,22 @@
  
   let color = "text-grey-200";
   let hover = "sm:hover:text-primary-500";
+  import { Carousel,CarouselTransition } from 'flowbite-svelte'
+  import { images } from '../utils/images.js';
+  import Text from "$lib/components/Text.svelte";
+  let showThumbs=false
+  let showCaptions=false
+  let showIndicators=false
 </script>
 
 
 
 <Anchor id="home" />
-<div
-  class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
-  id="bg"
->
-  <div class="text-center">
-    <h1 class="text-5xl m-6 {color} font-light">Coming soon! </h1>
-  </div>
 
+<div class="max-w-4xl">
+  <Carousel {images} {showThumbs} {showCaptions} {showIndicators}/>
 </div>
+
 
 <style>
   #bg {

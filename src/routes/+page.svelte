@@ -1,6 +1,3 @@
-<script lang="ts" context="module">
-
-</script>
 
 <script lang="ts">
   import SEO from "svelte-seo";
@@ -9,7 +6,7 @@
 
 <SEO
   title="Premier Smartscape"
-  description="The best "
+  description=""
   canonical="https://premiersmartscape.com
   "
 />
