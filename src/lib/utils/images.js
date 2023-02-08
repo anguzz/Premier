@@ -6,44 +6,13 @@ export const images = [
 	},
 	{
 	  id: 1,
-	  name: "Cristina Gottardi",
-	  imgurl: "https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843__480.png",
-	  attribution: "cristina-gottardi-CSpjU6hYo_0-unsplash.com",
+	  name: "More patios!",
+	  imgurl: "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2010/2/8/0/istock-2017881_patio-hardscaping-gray-pavers_s4x3.jpg.rend.hgtvcom.1280.960.suffix/1400946680511.jpeg",
 	},
 	{
 	  id: 2,
-	  name: "Johannes Plenio",
-	  imgurl: "https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843__480.png",
-	  attribution: "johannes-plenio-RwHv7LgeC7s-unsplash.com",
+	  name: "Another outdoor patio",
+	  imgurl: "https://www.bhg.com/thmb/y8g9GeZB33nvzz9C3sMJUATJ6xA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/mikkelsens-enclosed-patio-518840ba-1afc3f7873ce42c480511f7d2c2357b3.jpg",
 	},
-	{
-	  id: 3,
-	  name: "Jonatan Pie",
-	  imgurl: "https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843__480.png",
-	  attribution: "jonatan-pie-3l3RwQdHRHg-unsplash.com",
-	},
-	{
-	  id: 4,
-	  name: "Mark Harpur",
-	  imgurl: "https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843__480.png",
-	  attribution: "mark-harpur-K2s_YE031CA-unsplash",
-	},
-	{
-	  id: 5,
-	  name: "Pietro De Grandi",
-	  imgurl: "https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843__480.png",
-	  attribution: "pietro-de-grandi-T7K4aEPoGGk-unsplash",
-	},
-	{
-	  id: 6,
-	  name: "Sergey Pesterev",
-	  imgurl: "https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843__480.png",
-	  attribution: "sergey-pesterev-tMvuB9se2uQ-unsplash",
-	},
-	{
-	  id: 7,
-	  name: "Solo travel goals",
-	  imgurl: "https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843__480.png",
-	  attribution: "solotravelgoals-7kLufxYoqWk-unsplash",
-	},
+
 	];
