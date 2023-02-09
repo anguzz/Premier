@@ -1,48 +1,51 @@
 <script lang="ts">
   import Anchor from "$lib/components/Anchor.svelte";
-
- 
+  import Text from "$lib/components/Text.svelte";
+  import { Carousel,CarouselTransition } from 'flowbite-svelte'
+  import { images } from '../utils/images.js';
+  let showThumbs=false
+  let showCaptions=false
+  let showIndicators=false
+  let slideControls=false
   let color = "text-grey-200";
   let hover = "sm:hover:text-primary-500";
+  
+  
+  let image1="https://absolutescapes.com/wp-content/gallery/walkways-patios-steps/Patio-Sabine.jpg"
+  
 </script>
-
-
-
+<!--  <CarouselTransition {images} {slideControls} loop transitionType="fade" transitionParams="{{ duration: 200 }}" showCaptions={false} showThumbs={false} duration="4000" />-->
 <Anchor id="home" />
 <div
-  class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
-  id="bg"
->
-  <div class="text-center">
-    <h1 class="text-5xl m-6 {color} font-light">Coming soon! </h1>
+  class="relative pt-16 pb-32 flex content-center items-center justify-center"
+  style="min-height: 100vh;"
+  >
+  <!--  <CarouselTransition {images} {slideControls} loop transitionType="fade" transitionParams="{{ duration: 200 }}" showCaptions={false} showThumbs={false} duration="4000" />-->
+  <div
+    class="absolute top-0 w-full h-full bg-center bg-cover"
+    style='background-image: url({image1});'
+    >
+    <span
+      id="blackOverlay"
+      class="w-full h-full absolute opacity-75 bg-black"
+      ></span>
   </div>
-
+  <div class="container relative mx-auto">
+    <div class="items-center flex flex-wrap">
+      <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+        <div class="pr-12">
+          <h1 class="text-white font-semibold text-6xl">
+            Premier Smartscape
+          </h1>
+          <p class="mt-4 text-xl text-gray-300 font-bold">
+            Custom pools • Masonry • Landscaping
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+    style="height: 70px;">
+  </div>
 </div>
-
-<style>
-  #bg {
-    /* The image used background-image: url("/assets/images/background1.jpg"); */
-    background-image: linear-gradient(217deg, rgba(0, 248, 165, 0.8), rgba(255,0,0,0) 70.71%),
-      linear-gradient(127deg, rgba(0, 4, 255, 0.8), rgba(0,255,0,0) 70.71%),
-      linear-gradient(336deg, rgba(248, 248, 248, 0.8), rgba(0,0,255,0) 70.71%);
-    
-  }
-
-  .text-2{
-  font-size: 1.8rem;  
-  margin: 0rem;
-  margin-top: 0rem;
-  font-weight: 200;
-  line-height: 3rem;
-  color:rgb(215, 219, 223);
- }    
- 
-  .subtitle {
-    font-size: 1.8rem; 
-     margin: 0rem;
-    font-weight: 200;
-    color:rgb(215, 219, 223);
-    padding-left: 3vw;
-    
-  }
-</style>

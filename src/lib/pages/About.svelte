@@ -1,16 +1,14 @@
 <script lang="ts">
-  import Page from "$lib/components/Page.svelte";
+  import Anchor from "$lib/components/Anchor.svelte";
   import Text from "$lib/components/Text.svelte";
-  import { primaryBackground } from "$lib/utils/constants";
-
-  export let backgroundClass = primaryBackground;
+ 
 </script>
 
-<Page id="content" title=" " {backgroundClass}>
+<Anchor id="about"/>
   <Text>
     about!
   </Text>
-</Page>
+
 
 
 <style>
