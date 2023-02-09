@@ -4,6 +4,7 @@
   import Home from "$lib/pages/Home.svelte";
   import About from "$lib/pages/About.svelte";
   import Contact from "$lib/pages/Contact.svelte";
+  import Services from "$lib/pages/Services.svelte";
 
 </script>
 
@@ -16,6 +17,6 @@
 
 <Home />
 
-<About/>
+<Services/>
 
 <Contact/>
