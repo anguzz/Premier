@@ -7,7 +7,7 @@
 
 
   import {Swipeable, Preload, Screen, Controls} from 'thumb-ui'
-  let current=1
+  let current=0
 
  
   import { images } from '../utils/images.js';
@@ -23,7 +23,7 @@
     </svg>
   </div>
     <div class="items-center flex flex-wrap">
-      <div class="w-full  md:w-1/2 ml-auto mr-auto max-w-xl">
+      <div class="w-full  md:w-1/2 ml-auto mr-auto max-w-3xl">
        
        
 <div class="container">
