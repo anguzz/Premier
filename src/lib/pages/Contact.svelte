@@ -6,8 +6,21 @@
   let phoneNumber = "714-1234-5678"
 
 
-  import { Carousel,CarouselTransition } from 'flowbite-svelte'
-  import { images } from '../utils/images.js';
+  import {Swipeable, Preload, Screen, Controls} from 'thumb-ui'
+  let current=1
+
+  let images = [
+    {url: 'https://i.imgur.com/WSNVjAp.jpg', name: 'Lamborghini Veneno'},
+    {url: 'https://i.imgur.com/ktLr47i.jpg', name: 'Zenvo TS1'},
+    {url: 'https://i.imgur.com/IBPaYOH.jpg', name: 'McLaren P1 LM'},
+    {url: 'https://i.imgur.com/E97i8c8.jpg', name: 'LaFerrari FXX K'},
+    {url: 'https://i.imgur.com/eurkXGH.jpg', name: 'Bugatti Chiron'},
+    {url: 'https://i.imgur.com/1BdAJno.jpg', name: 'Lamborghini Centenario'},
+    {url: 'https://i.imgur.com/0AZOG1D.jpg', name: 'Aston Martin One-77'},
+    {url: 'https://i.imgur.com/qlgU0n9.jpg', name: 'Pagani Huayra'},
+    {url: 'https://i.imgur.com/Qol6aNw.jpg', name: 'W Motors Lykan Hypersport'}
+  ]
+  //import { images } from '../utils/images.js';
   let showThumbs=false
   let showCaptions=false
   let showIndicators=false
@@ -27,7 +40,26 @@
   <div class="container mx-auto px-4">
     <div class="items-center flex flex-wrap">
       <div class="w-full  md:w-1/2 ml-auto mr-auto max-w-xl">
-        <CarouselTransition {images} {slideControls} loop transitionType="fade" transitionParams="{{ duration: 200 }}" showCaptions={false} showThumbs={false} duration="4000" />
+       
+       
+<div class="container">
+  <Swipeable bind:current>
+    <div class="images">
+      {#each images as image}
+        <Screen>
+          <Preload url={image.url} let:src>
+            <div class="img" style="background-image: url({src})"/>
+          </Preload>
+        </Screen>
+      {/each}
+		</div>
+		<Controls />
+  </Swipeable>
+</div>
+
+
+
+
 
       </div>
   
@@ -99,4 +131,36 @@
     </div>
   </div>
 </section>
-<style></style>
+
+
+
+<style>
+.images {
+  width: 100%;
+  height: 100%;
+  perspective: 800px;
+  transform: translateZ(-100px);
+  transform-style: preserve-3d;
+}
+.container {
+  position: relative;
+  padding-top: 60%;
+  width: 100%;
+  user-select: none;
+  overflow: hidden;
+}
+	.container :global(.swipeable) {
+		position: absolute;
+		top: 0;
+	}
+.img {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+</style>
