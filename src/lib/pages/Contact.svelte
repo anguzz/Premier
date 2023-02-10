@@ -37,7 +37,6 @@
     <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
     </svg>
   </div>
-  <div class="container mx-auto px-4">
     <div class="items-center flex flex-wrap">
       <div class="w-full  md:w-1/2 ml-auto mr-auto max-w-xl">
        
@@ -129,7 +128,6 @@
         </div>
       </div>
     </div>
-  </div>
 </section>
 
 
