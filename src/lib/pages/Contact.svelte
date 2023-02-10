@@ -131,6 +131,7 @@
   width: 100%;
   user-select: none;
   overflow: hidden;
+  border-radius: 10px;
 }
 	.container :global(.swipeable) {
 		position: absolute;
