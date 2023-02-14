@@ -6,11 +6,12 @@
   let phoneNumber = "714-1234-5678"
 
 
-  import {Swipeable, Preload, Screen, Controls} from 'thumb-ui'
-  let current=0
 
  
   import { images } from '../utils/images.js';
+  let showThumbs=false
+  let showCaptions=false
+  import { Carousel } from 'flowbite-svelte'
 
 </script>
 <Anchor id="contact" />
@@ -27,19 +28,13 @@
        
        
 <div class="container">
-  <Swipeable bind:current>
-    <div class="images">
-      {#each images as image}
-        <Screen>
-          <Preload url={image.url} let:src>
-            <div class="img" style="background-image: url({src})"/>
-          </Preload>
-        </Screen>
-      {/each}
-		</div>
-		<Controls />
-  </Swipeable>
-</div>
+  <div
+  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-800"
+  >
+  <div class="max-w-4xl">
+    <Carousel {images} loop {showCaptions} {showThumbs} duration="3700"/>
+  </div>
+</div>  </div>
 
 
 

@@ -14,7 +14,13 @@
   
   let box3title="Remodels"
   let box3info=" Remodels can range from the simple- such as updating tile or resurfacing a pool, to the elaborate- such as building new walls and rooms."
-  let image2="https://luxurypools.com/wp-content/uploads/2018/05/Poolscape-with-three-separate-bistro-patio-areas_Rugged-Class-Waterfalls-Pools-488x325.jpg"
+
+  import { images } from '../utils/images.js';
+  import { Carousel  } from 'flowbite-svelte'
+  let showThumbs=false
+  let showCaptions=false
+
+  
 </script>
 <Anchor id="services" />
 <section class="pb-20 relative block bg-grey-900">
@@ -131,11 +137,9 @@
         <div
           class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-800"
           >
-          <img
-            alt="..."
-            src={image2}
-            class="w-full align-middle rounded-t-lg"
-            />
+          <div class="max-w-4xl">
+            <Carousel {images} loop {showCaptions} {showThumbs} duration="3700"/>
+          </div>
           <blockquote class="relative p-8 mb-4">
             <svg
               preserveAspectRatio="none"

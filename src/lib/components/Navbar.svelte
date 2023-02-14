@@ -8,7 +8,6 @@
   let bgcolor="bg-slate-900"
 </script>
 
-<div>
   <div class={bgcolor}>
     <nav
       class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"
@@ -57,4 +56,7 @@
       </div>
     </nav>
   </div>
-</div>
+
+<style>
+
+</style>
