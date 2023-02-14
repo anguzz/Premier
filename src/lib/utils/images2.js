@@ -2,7 +2,7 @@
 export let images = [
 	{
 	  id: 0,
-	  imgurl: '/images/pool-3.jpg',
+	  imgurl: '/images/patio-pool3.jpg',
 	},
 	{
 	  id: 1,
@@ -18,11 +18,11 @@ export let images = [
 	},
 	{
 		id: 4,
-		imgurl: '/images/patio1.jpg', 
+		imgurl: '/images/patio1.jpeg', 
 	},
 	{
 		id: 5,
-		imgurl: '/images/patio2.jpg', 
+		imgurl: '/images/patio2.webp', 
 	},
   ];
   

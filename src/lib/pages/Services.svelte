@@ -137,8 +137,8 @@
         <div
           class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-800"
           >
-          <div class="max-w-4xl">
-            <Carousel {images} loop {showCaptions} {showThumbs} duration="3700"/>
+          <div class="object-contain h-full w-full">
+            <Carousel {images}  {showCaptions} {showThumbs} duration="3700"/>
           </div>
           <blockquote class="relative p-8 mb-4">
             <svg
