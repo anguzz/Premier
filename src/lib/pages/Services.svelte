@@ -117,7 +117,7 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap items-center mt-32">
+    <div class="flex flex-wrap items-center mt-12">
       <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
         <h3 class="text-3xl mb-2 font-semibold leading-normal text-gray-700">
           Working with us is a pleasure
