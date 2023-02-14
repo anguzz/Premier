@@ -123,15 +123,10 @@
           Working with us is a pleasure
         </h3>
         <p
-          class="text-lg font-semibold leading-relaxed mt-4 mb-4 text-gray-700"
+          class="text-lg font-bold leading-relaxed mt-4 mb-4 text-gray-700"
           >
-         Services we offer
-        </p>
-        <p
-          class="text-lg font-bold leading-relaxed mt-0 mb-4 text-gray-700"
-          >
-          More Services we offer
-        </p>
+          Our years of experience serving Southern California have helped us to become a trusted industry influencer. Our designs are trend setting and push standards of design and innovation to new heights. Our goal is always the same. To produce the most professional, stunning, and industry-leading results        </p>
+  
       </div>
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
         <div
