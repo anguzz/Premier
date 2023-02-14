@@ -14,7 +14,13 @@
   
   let box3title="Remodels"
   let box3info=" Remodels can range from the simple- such as updating tile or resurfacing a pool, to the elaborate- such as building new walls and rooms."
-  let image2="https://luxurypools.com/wp-content/uploads/2018/05/Poolscape-with-three-separate-bistro-patio-areas_Rugged-Class-Waterfalls-Pools-488x325.jpg"
+
+  import { images } from '../utils/images.js';
+  import { Carousel  } from 'flowbite-svelte'
+  let showThumbs=false
+  let showCaptions=false
+
+  
 </script>
 <Anchor id="services" />
 <section class="pb-20 relative block bg-grey-900">
@@ -117,25 +123,18 @@
           Working with us is a pleasure
         </h3>
         <p
-          class="text-lg font-semibold leading-relaxed mt-4 mb-4 text-gray-700"
+          class="text-lg font-bold leading-relaxed mt-4 mb-4 text-gray-700"
           >
-         Services we offer
-        </p>
-        <p
-          class="text-lg font-bold leading-relaxed mt-0 mb-4 text-gray-700"
-          >
-          More Services we offer
-        </p>
+          Our years of experience serving Southern California have helped us to become a trusted industry influencer. Our designs are trend setting and push standards of design and innovation to new heights. Our goal is always the same. To produce the most professional, stunning, and industry-leading results        </p>
+  
       </div>
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
         <div
           class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-800"
           >
-          <img
-            alt="..."
-            src={image2}
-            class="w-full align-middle rounded-t-lg"
-            />
+          <div class="object-contain h-full w-full">
+            <Carousel {images}  {showCaptions} {showThumbs} duration="3700"/>
+          </div>
           <blockquote class="relative p-8 mb-4">
             <svg
               preserveAspectRatio="none"

@@ -48,6 +48,7 @@
   "dependencies": {
     "flowbite-svelte": "^0.29.13",
     "svelte-carousel": "^1.0.22",
-    "svelte-qrcode-image": "^1.0.0-rc.2"
+    "svelte-qrcode-image": "^1.0.0-rc.2",
+    "thumb-ui": "^0.0.17"
   }
 }

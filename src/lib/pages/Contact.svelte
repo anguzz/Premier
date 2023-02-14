@@ -6,14 +6,13 @@
   let phoneNumber = "714-1234-5678"
 
 
-  import { Carousel,CarouselTransition } from 'flowbite-svelte'
-  import { images } from '../utils/images.js';
+
+ 
+  import { images } from '../utils/images2.js';
   let showThumbs=false
   let showCaptions=false
-  let showIndicators=false
-  let slideControls=false
-  let color = "text-grey-200";
-  let hover = "sm:hover:text-primary-500";
+  import { Carousel } from 'flowbite-svelte'
+
 </script>
 <Anchor id="contact" />
 
@@ -24,10 +23,22 @@
     <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
     </svg>
   </div>
-  <div class="container mx-auto px-4">
     <div class="items-center flex flex-wrap">
-      <div class="w-full  md:w-1/2 ml-auto mr-auto max-w-xl">
-        <CarouselTransition {images} {slideControls} loop transitionType="fade" transitionParams="{{ duration: 200 }}" showCaptions={false} showThumbs={false} duration="4000" />
+      <div class="w-full  md:w-1/2 ml-auto mr-auto max-w-3xl">
+       
+       
+<div class="container">
+  <div
+  class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-800"
+  >
+  <div class="max-w-4xl">
+    <Carousel {images}  {showCaptions} {showThumbs} duration="3700"/>
+  </div>
+</div>  </div>
+
+
+
+
 
       </div>
   
@@ -97,6 +108,38 @@
         </div>
       </div>
     </div>
-  </div>
 </section>
-<style></style>
+
+
+
+<style>
+.images {
+  width: 100%;
+  height: 100%;
+  perspective: 800px;
+  transform: translateZ(-100px);
+  transform-style: preserve-3d;
+}
+.container {
+  position: relative;
+  padding-top: 60%;
+  width: 100%;
+  user-select: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+	.container :global(.swipeable) {
+		position: absolute;
+		top: 0;
+	}
+.img {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+</style>
