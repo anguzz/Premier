@@ -122,7 +122,6 @@
 }
 .container {
   position: relative;
-  padding-top: 60%;
   width: 100%;
   user-select: none;
   overflow: hidden;
