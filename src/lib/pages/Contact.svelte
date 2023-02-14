@@ -8,7 +8,7 @@
 
 
  
-  import { images } from '../utils/images.js';
+  import { images } from '../utils/images2.js';
   let showThumbs=false
   let showCaptions=false
   import { Carousel } from 'flowbite-svelte'
