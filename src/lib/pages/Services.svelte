@@ -6,7 +6,7 @@
   export let backgroundClass = primaryBackground;
   
   
-  let box1title="Design and Consulting"
+  let box1title="Design & Consulting"
   let box1info="At Premier we know that a successful landscape design involves creativity, knowledge and experience."
   
   let box2title="Landscaping & Hardscaping"
