@@ -3,7 +3,7 @@
   import Text from "$lib/components/Text.svelte";
   import {primaryBackground} from "$lib/utils/constants";
   export let backgroundClass = primaryBackground;
-  let phoneNumber = "714-1234-5678"
+  let phoneNumber = "949-991-7642"
 
 
 
@@ -15,9 +15,9 @@
 
 </script>
 <Anchor id="contact" />
-
-
-
+<div
+  class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
+  id="bg">
 <section class="relative py-20">
   <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20" style="height: 80px;">
     <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
@@ -110,9 +110,12 @@
     </div>
 </section>
 
-
+</div>
 
 <style>
+  #bg{
+    background-image: radial-gradient(circle,#2f384b, #2f384b,#2f384b);  
+   }
 .images {
   width: 100%;
   height: 100%;

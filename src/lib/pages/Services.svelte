@@ -6,13 +6,13 @@
   export let backgroundClass = primaryBackground;
   
   
-  let box1title="Distinct Designs"
+  let box1title="Design and Consulting"
   let box1info="At Premier we know that a successful landscape design involves creativity, knowledge and experience."
   
-  let box2title="Patios, pools and spas"
-  let box2info="Let us help create your perfect outdoor oasis. Our master craftsman turn your ideas into reality."
+  let box2title="Landscaping & Hardscaping"
+  let box2info="Let us help create your perfect outdoor oasis. Our master craftsmen will turn your ideas into reality."
   
-  let box3title="Remodels"
+  let box3title="Landscape Remodels & Repairs"
   let box3info=" Remodels can range from the simple- such as updating tile or resurfacing a pool, to the elaborate- such as building new walls and rooms."
 
   import { images } from '../utils/images.js';
@@ -125,8 +125,7 @@
         <p
           class="text-xl font-bold leading-relaxed mt-4 mb-4 text-gray-700"
           >
-          Our years of experience serving Southern California have helped us to become a trusted industry influencer. Our designs are trend setting and push standards of design and innovation to new heights. Our goal is always the same. To produce the most professional, stunning, and industry-leading results        </p>
-  
+          Premier Smartscape Inc is southern California’s leading landscape contractor and design firm. Premier Smartscape Inc started business as Agrotech Landscaping in 2013.<br> <br> The company worked primarily as a masonry and landscaping sub-contractor to some of the most reputable contractors in Orange County. Many of these contractors did not have the capability to perform these services internally and relied upon our expertise and experience to do this detailed work.  <br> <br> In 2022 renamed the company to Premier Smartscape Inc. to give us better exposure with the individual homeowner.   
       </div>
       <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
         <div
@@ -149,11 +148,10 @@
                 ></polygon>
             </svg>
             <h4 class="text-xl font-bold text-white">
-              Top Notch Services
+              Our Mission
             </h4>
             <p class="text-md font-semibold mt-2 text-white">
-              Premier Smartscape is a full-service landscape contractor and architectural design firm. We serve residential and commercial establishments in Southern California.
-            </p>
+              We pride ourselves on exceptional craftsmanship, exceptional customer service, and superior attention to detail. Our mission is to provide our clients with project satisfaction.            </p>
           </blockquote>
         </div>
       </div>

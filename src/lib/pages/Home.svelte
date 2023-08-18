@@ -38,7 +38,7 @@
             Premier Smartscape
           </h1>
           <p class="mt-4 text-xl text-gray-300 font-bold">
-            Custom pools • Masonry • Landscaping
+            Design  • Landscaping • Masonry
           </p>
         </div>
       </div>

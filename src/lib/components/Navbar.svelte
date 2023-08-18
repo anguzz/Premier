@@ -6,6 +6,8 @@
   }
 
   let bgcolor="bg-slate-900"
+  let src = '/images/logo.png'
+
 </script>
 
   <div class={bgcolor}>
@@ -15,8 +17,9 @@
       <div class="flex items-center justify-between">
         <a
           class="text-2xl font-bold text-gray-100 md:text-2xl hover:text-blue-400"
-          href="/">Premier Smartscape
-        </a>
+          href="/">Premier Smartscape Inc. 
+        </a> <img class= "float-left pl-2" {src} width=40 alt="premier logo" />
+
         <!-- Mobile menu button -->
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <div on:click={toggleNavbar} class="flex md:hidden">
@@ -48,9 +51,10 @@
           ? 'flex'
           : 'hidden'}">
         <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="/">Home</a>
-        <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="#services">Services</a>
-        <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="#contact">Contact</a>
-        <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="#about">About</a>
+        <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="/#services">Services</a>
+        <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="/portfolio">Portfolio</a>
+        <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="/#contact">Contact</a>
+        <!-- <a class="text-gray-100 text-xl font-medium	 hover:text-blue-400" href="/#about">About</a> !-->
         <div class="space-y-2">
         </div>
       </div>
