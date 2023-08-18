@@ -8,7 +8,7 @@
 
 	<br>
 	<div class="text-center">
-		<h1 class="text-5xl m-6 {color} font-light"> Premier Portfolio Pieces  </h1>
+		<h1 class="text-5xl m-6 {color} font-light"> Premier Portfolio  </h1>
 	  </div>
 	  <br><br>
 
@@ -43,7 +43,7 @@
       
       .gallery-container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 15px;
       }
       
