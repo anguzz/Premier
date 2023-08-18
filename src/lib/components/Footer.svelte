@@ -1,5 +1,5 @@
 <script>
-let logo="favicon.ico" //placeholder logo for now
+let logo="favicon.ico" 
 let instagram="https://www.instagram.com/premiersmartscape/" //test ig for now
 //let facebook="https://www.facebook.com/Cheetos/" //test facebook for now
 let premier="https://premiersmartscape.com"
