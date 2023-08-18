@@ -21,9 +21,6 @@
             Payment:
             Payment for services rendered is due at the time of service or as otherwise agreed upon in writing between you and Premier smartscape. Premier smartscape reserves the right to charge additional fees for services not included in the original quote or estimate.
             <br><br>
-            Limitation of Liability:
-            Premier smartscape shall not be liable for any damages arising from the use of its services, including but not limited to, any direct, indirect, incidental, special, or consequential damages, even if Premier smartscape has been advised of the possibility of such damages.
-            <br><br>
             Warranty:
             Premier smartscape provides a warranty for its services to the extent permitted by law. The specific terms of the warranty will be provided to you at the time of service.
             <br><br>
