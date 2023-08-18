@@ -13,7 +13,7 @@
   let box2info="Let us help create your perfect outdoor oasis. Our master craftsmen will turn your ideas into reality."
   
   let box3title="Landscape Remodels & Repairs"
-  let box3info=" Remodels can range from the simple- such as updating tile or resurfacing a pool, to the elaborate- such as building new walls and rooms."
+  let box3info="Renovations can encompass a spectrum ranging from straightforward tasks to more intricate and complex endeavors."
 
   import { images } from '../utils/images.js';
   import { Carousel  } from 'flowbite-svelte'
