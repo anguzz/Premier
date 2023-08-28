@@ -37,7 +37,7 @@ const photos = [
     },
     {
       id:10,
-      src: "images/portfolio/01.jpg"
+      src: "images/portfolio/10.jpg"
     },
     {
       id:11,

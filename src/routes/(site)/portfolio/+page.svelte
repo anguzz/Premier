@@ -1,12 +1,15 @@
 <script>
     import photos from './portfolio_photos'
 
-	let color = "text-grey-200";
+	let color = "text-slate-700";
 
 
 </script>
 
-	<br>
+
+  <div
+  class="flex flex-col items-center justify-center bg-center bg-no-repeat bg-cover page lg:bg-fixed bg-neutral-600 bg-blend-soft-light dark:bg-blend-soft-light dark:bg-neutral-700"
+  id="bg">
 	<div class="text-center">
 		<h1 class="text-5xl m-6 {color} font-light"> Premier Portfolio  </h1>
 	  </div>
@@ -23,21 +26,15 @@
     {/each}
 </div>
 
-</div>
+</div></div>
 
 
 
 <style>
-    #bg {
-        /* The image used background-image: url("/assets/images/background1.jpg"); */
-      padding-top:1rem;
-      padding-bottom:1rem;
-        background-image: 
-      linear-gradient(217deg, #276c71, rgba(255,0,0,0) 70.71%),
-          linear-gradient(127deg, #276c71, rgba(0,255,0,0) 70.71%),
-          linear-gradient(336deg, #276c71, rgba(0,0,255,0) 70.71%);
-      }
-    
+   
+   #bg{
+    background-color: white;  
+   }
       * { box-sizing: border-box; }
     /* 	img { max-width: 100%; } */
       
