@@ -3,6 +3,7 @@ let logo="favicon.ico"
 let instagram="https://www.instagram.com/premiersmartscape/" //test ig for now
 //let facebook="https://www.facebook.com/Cheetos/" //test facebook for now
 let premier="https://premiersmartscape.com"
+let premierQR="https://premiersmartscape.com/qr"
 let github="https://github.com/anguzz/"
 </script>
 
@@ -25,6 +26,9 @@ let github="https://github.com/anguzz/"
                   </li>
                   <li class="mb-4">
                     <a href= {premier} class="hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                    <a href= {premierQR} class="hover:underline">QR</a>
                 </li>
               </ul>
           </div>

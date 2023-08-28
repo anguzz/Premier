@@ -2,7 +2,6 @@
   import Anchor from "$lib/components/Anchor.svelte";
   import Text from "$lib/components/Text.svelte";
   import {primaryBackground} from "$lib/utils/constants";
-  export let backgroundClass = primaryBackground;
   let phoneNumber = "949-991-7642"
 
 
@@ -116,13 +115,7 @@
   #bg{
     background-image: radial-gradient(circle,#2f384b, #2f384b,#2f384b);  
    }
-.images {
-  width: 100%;
-  height: 100%;
-  perspective: 800px;
-  transform: translateZ(-100px);
-  transform-style: preserve-3d;
-}
+
 .container {
   position: relative;
   width: 100%;
@@ -134,12 +127,6 @@
 		position: absolute;
 		top: 0;
 	}
-.img {
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  width: 100%;
-}
 
 
 

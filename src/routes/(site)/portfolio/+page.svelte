@@ -36,37 +36,7 @@
 
 
 <style>
-   
    #bg{
     background-color: white;  
    }
-      * { box-sizing: border-box; }
-    /* 	img { max-width: 100%; } */
-      
-      .gallery-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 15px;
-      }
-      
-      .visually-hidden {
-        visibility: hidden;
-      }
-      
-      .image {
-        width: 90%;
-        height: 300px;
-        background: center / cover no-repeat;
-        border-radius: 10px;
-        
-      }
-      
-      .gallery {
-        display: inline-flex;
-        flex-wrap: nowrap;
-        width: 100%;
-        overflow-x: auto;
-      }
-      
-     
     </style>
