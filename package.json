@@ -47,7 +47,11 @@
   "type": "module",
   "dependencies": {
     "flowbite-svelte": "^0.29.13",
+    "i": "^0.3.7",
+    "npm": "^9.8.1",
+    "photoswipe": "^5.3.8",
     "svelte-carousel": "^1.0.22",
+    "svelte-photoswipe": "^0.0.2",
     "svelte-qrcode-image": "^1.0.0-rc.2",
     "thumb-ui": "^0.0.17"
   }

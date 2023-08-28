@@ -1,9 +1,22 @@
-<script>
-    import photos from './portfolio_photos'
+<script lang="ts">
+  import photos from './portfolio_photos';
 
-	let color = "text-slate-700";
+  let color = "text-slate-700";
+  import PhotoSwipeGallery from "svelte-photoswipe";
+  import type { GalleryItem } from "svelte-photoswipe";
 
+  const images: GalleryItem[] = [];
 
+  // Iterate over the imported photos and add them to the images array
+  photos.forEach(photo => {
+    images.push({
+      src: `${import.meta.env.BASE_URL}${photo.src}`,
+      alt: `Photo ${photo.id}`, // You can customize alt text here
+      width:700,
+      height: 700,
+      cropped: true,
+    });
+  });
 </script>
 
 
@@ -14,19 +27,11 @@
 		<h1 class="text-5xl m-6 {color} font-light"> Premier Portfolio  </h1>
 	  </div>
 	  <br><br>
-
 		<div class="page-wrapper">
 
-<div class="gallery-container">
-    {#each photos as {src,id}}
-        <a class="grid" 
-        sveltekit:prefetch href="/{src}">
-        <img src= {src} alt="image" />
-    </a>
-    {/each}
+      <PhotoSwipeGallery {images} styling="grid" gridColumns={3} />
+    </div>
 </div>
-
-</div></div>
 
 
 
@@ -63,33 +68,5 @@
         overflow-x: auto;
       }
       
-      .gallery > .image {
-        flex-shrink: 0;
-        margin-right: 8px;
-        width: 100px;
-        height: 100px;
-        
-      }
-      
-      .image-viewer {
-        padding: 20px;
-        padding-left:6rem;
-        padding-top:6rem;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        top: 0;
-        background-color: rgba(100, 100, 100, 0.8);
-      }
-      
-      .active {
-        border: 3px solid #000;
-      }
-      
-      .image-viewer > img {
-        max-height: 80%;
-      }
+     
     </style>
