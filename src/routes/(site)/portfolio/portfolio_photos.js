@@ -31,14 +31,14 @@ const photos = [
       id:8,
       src: "images/portfolio/08.jpg"
     },
-    {
+    /*{
       id:9,
       src: "images/portfolio/09.jpg"
     },
     {
       id:10,
       src: "images/portfolio/10.jpg"
-    },
+    },*/
     {
       id:11,
       src: "images/portfolio/11.jpg"
@@ -66,10 +66,11 @@ const photos = [
     {
       id:17,
       src: "images/portfolio/17.jpg"
-    }, {
+    }, /*{
       id:18,
       src: "images/portfolio/18.jpg"
-    },{
+    },*/
+    {
       id:19,
       src: "images/portfolio/19.jpg"
     },
