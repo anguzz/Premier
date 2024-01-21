@@ -19,7 +19,7 @@
           class="text-2xl font-bold text-gray-100 md:text-2xl hover:text-blue-400"
           href="/">Premier Smartscape Inc. 
           <br>
-         <div class="text-base font-bold" > Lic # 983895 </div>
+         <div class="text-base font-bold" > Lic. # 983895 </div>
          </a> <img class= "float-left pl-2" {src} width=40 alt="premier logo" />
 
         <!-- Mobile menu button -->

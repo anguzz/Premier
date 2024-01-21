@@ -73,6 +73,26 @@ const photos = [
       id:19,
       src: "images/portfolio/19.jpg"
     },
+    {
+      id:20,
+      src: "images/portfolio/20.jpg"
+    },
+    {
+      id:21,
+      src: "images/portfolio/21.jpg"
+    },
+    {
+      id:22,
+      src: "images/portfolio/22.jpg"
+    },
+    {
+      id:23,
+      src: "images/portfolio/23.jpg"
+    },
+    {
+      id:24,
+      src: "images/portfolio/24.jpg"
+    },
   ]
   /*using same image twice will break zoom/carousel feature */
   export default photos;
