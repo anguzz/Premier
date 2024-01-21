@@ -75,7 +75,7 @@
                   </span>
                 </div>
                 <div>
-                  <a class="text-white-600 font-medium	hover:text-lg hover:text-blue-300" href="tel:{phoneNumber}">{phoneNumber}</a>
+                  <a class="text-white font-medium	hover:text-lg hover:text-blue-300" href="tel:{phoneNumber}">{phoneNumber}</a>
                 </div>
               </div>
             </li>
@@ -87,7 +87,7 @@
                   </span>
                 </div>
                 <div>
-                  <a class="text-white-600 font-medium	hover:text-lg hover:text-blue-300" href="mailto:premiersmartscape@gmail.com">premiersmartscape@gmail.com</a>
+                  <a class="text-white font-medium	hover:text-lg hover:text-blue-300" href="mailto:premiersmartscape@gmail.com">premiersmartscape@gmail.com</a>
                 </div>
               </div>
             </li>
@@ -99,7 +99,7 @@
                   </span>
                 </div>
                 <div>
-                  <h4 class="text-white-600 font-medium	hover:text-lg hover:text-blue-300">Available in the greater Southern California area</h4>
+                  <h4 class="text-white font-medium	hover:text-lg hover:text-blue-300">Available in the greater Southern California area</h4>
                 </div>
               </div>
             </li>
@@ -122,12 +122,14 @@
   user-select: none;
   overflow: hidden;
   border-radius: 10px;
+  color:white;
 }
 	.container :global(.swipeable) {
 		position: absolute;
 		top: 0;
 	}
 
+ 
 
 
 
